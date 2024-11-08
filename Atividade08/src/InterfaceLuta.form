@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="peso" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="altura" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="nomeLutador" min="-2" pref="93" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="adicionar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Component id="nacionalidade" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="idade" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="labelVitorias" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="marcarLuta" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelDerrotas" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="vitorioso" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                              <Component id="nomesLutadores" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                                              <Component id="labelEmpates" min="-2" pref="48" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="mostrarEmpates" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="derrotado" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="adicionadoSucesso" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lutaMarcada" min="-2" pref="53" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lutador1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="adicionarLutador" min="-2" pref="126" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="desafiante" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="lutador2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="desafiador" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="mostrarVitorias" min="-2" max="-2" attributes="0"/>
+                              <Component id="mostrarRendimentos" min="-2" max="-2" attributes="0"/>
+                              <Component id="MostrarDerrotas" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="67" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Component id="adicionar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nomeLutador" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nacionalidade" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idade" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="altura" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="peso" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="adicionarLutador" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="adicionadoSucesso" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="desafiante" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lutador1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lutador2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="desafiador" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Component id="marcarLuta" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Component id="lutaMarcada" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="vitorioso" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="derrotado" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nomesLutadores" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mostrarRendimentos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelVitorias" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mostrarVitorias" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelDerrotas" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MostrarDerrotas" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelEmpates" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="mostrarEmpates" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="36" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lutador1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desafiante:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lutador2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desafiado:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="desafiante">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="desafiador">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="adicionar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adicionar lutador:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nacionalidade:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Idade:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Altura:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Peso:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JTextField" name="nomeLutador">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="insira o nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="nacionalidade">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="111">
+            <StringItem index="0" value="Ant&#xed;gua e Barbuda - Antiguano"/>
+            <StringItem index="1" value="Argentina - Argentino"/>
+            <StringItem index="2" value="Bahamas - Bahamense"/>
+            <StringItem index="3" value="Barbados - Barbadiano, barbadense"/>
+            <StringItem index="4" value="Belize - Belizenho"/>
+            <StringItem index="5" value="Bol&#xed;via - Boliviano"/>
+            <StringItem index="6" value="Brasil - Brasileiro"/>
+            <StringItem index="7" value="Chile - Chileno"/>
+            <StringItem index="8" value="Col&#xf4;mbia - Colombiano"/>
+            <StringItem index="9" value="Costa Rica - Costarriquenho"/>
+            <StringItem index="10" value="Cuba - Cubano"/>
+            <StringItem index="11" value="Dominica - Dominicano"/>
+            <StringItem index="12" value="Equador - Equatoriano"/>
+            <StringItem index="13" value="El Salvador - Salvadorenho"/>
+            <StringItem index="14" value="Granada - Granadino"/>
+            <StringItem index="15" value="Guatemala - Guatemalteco"/>
+            <StringItem index="16" value="Guiana - Guian&#xea;s"/>
+            <StringItem index="17" value="Guiana Francesa - Guianense"/>
+            <StringItem index="18" value="Haiti - Haitiano"/>
+            <StringItem index="19" value="Honduras - Hondurenho"/>
+            <StringItem index="20" value="Jamaica - Jamaicano"/>
+            <StringItem index="21" value="M&#xe9;xico - Mexicano"/>
+            <StringItem index="22" value="Nicar&#xe1;gua - Nicaraguense"/>
+            <StringItem index="23" value="Panam&#xe1; - Panamenho"/>
+            <StringItem index="24" value="Paraguai - Paraguaio"/>
+            <StringItem index="25" value="Peru - Peruano"/>
+            <StringItem index="26" value="Porto Rico - Portorriquenho"/>
+            <StringItem index="27" value="Rep&#xfa;blica Dominicana - Dominicana"/>
+            <StringItem index="28" value="S&#xe3;o Crist&#xf3;v&#xe3;o e Nevis - S&#xe3;o-cristovense"/>
+            <StringItem index="29" value="S&#xe3;o Vicente e Granadinas - S&#xe3;o-vicentino"/>
+            <StringItem index="30" value="Santa L&#xfa;cia - Santa-lucense"/>
+            <StringItem index="31" value="Suriname - Surinam&#xea;s"/>
+            <StringItem index="32" value="Trinidad e Tobago - Trindadense"/>
+            <StringItem index="33" value="Uruguai - Uruguaio"/>
+            <StringItem index="34" value="Venezuela - Venezuelano"/>
+            <StringItem index="35" value="Alemanha - Alem&#xe3;o"/>
+            <StringItem index="36" value="&#xc1;ustria - Austr&#xed;aco"/>
+            <StringItem index="37" value="B&#xe9;lgica - Belga"/>
+            <StringItem index="38" value="Cro&#xe1;cia - Croata"/>
+            <StringItem index="39" value="Dinamarca - Dinamarqu&#xea;s"/>
+            <StringItem index="40" value="Eslov&#xe1;quia - Eslovaco"/>
+            <StringItem index="41" value="Eslov&#xea;nia - Esloveno"/>
+            <StringItem index="42" value="Espanha - Espanhol"/>
+            <StringItem index="43" value="Fran&#xe7;a - Franc&#xea;s"/>
+            <StringItem index="44" value="Gr&#xe9;cia - Grego"/>
+            <StringItem index="45" value="Hungria - H&#xfa;ngaro"/>
+            <StringItem index="46" value="Irlanda - Irland&#xea;s"/>
+            <StringItem index="47" value="It&#xe1;lia - Italiano"/>
+            <StringItem index="48" value="Noruega - Noruego"/>
+            <StringItem index="49" value="Pa&#xed;ses Baixos - Holand&#xea;s"/>
+            <StringItem index="50" value="Pol&#xf4;nia - Polon&#xea;s"/>
+            <StringItem index="51" value="Portugal - Portugu&#xea;s"/>
+            <StringItem index="52" value="Reino Unido - Brit&#xe2;nico"/>
+            <StringItem index="53" value="Inglaterra - Ingl&#xea;s"/>
+            <StringItem index="54" value="Pa&#xed;s de Gales - Gal&#xea;s"/>
+            <StringItem index="55" value="Esc&#xf3;cia - Escoc&#xea;s"/>
+            <StringItem index="56" value="Rom&#xea;nia - Romeno"/>
+            <StringItem index="57" value="R&#xfa;ssia - Russo"/>
+            <StringItem index="58" value="S&#xe9;rvio - S&#xe9;rvio"/>
+            <StringItem index="59" value="Su&#xe9;cia - Sueco"/>
+            <StringItem index="60" value="Su&#xed;&#xe7;a - Su&#xed;&#xe7;o"/>
+            <StringItem index="61" value="Turquia - Turco"/>
+            <StringItem index="62" value="Ucr&#xe2;nia - Ucraniano"/>
+            <StringItem index="63" value="Estados Unidos - Americano"/>
+            <StringItem index="64" value="Canad&#xe1; - Canadense"/>
+            <StringItem index="65" value="Angola - Angolano"/>
+            <StringItem index="66" value="Mo&#xe7;ambique - Mo&#xe7;ambicano"/>
+            <StringItem index="67" value="&#xc1;frica do Sul - Sul-africano"/>
+            <StringItem index="68" value="Zimbabue - Zimbabuense"/>
+            <StringItem index="69" value="Arg&#xe9;lia - Arg&#xe9;lia"/>
+            <StringItem index="70" value="Comores - Comorense"/>
+            <StringItem index="71" value="Egito - Eg&#xed;pcio"/>
+            <StringItem index="72" value="L&#xed;bia - L&#xed;bio"/>
+            <StringItem index="73" value="Marrocos - Marroquino"/>
+            <StringItem index="74" value="Gana - Gan&#xe9;s"/>
+            <StringItem index="75" value="Qu&#xea;nia - Queniano"/>
+            <StringItem index="76" value="Ruanda - Ruand&#xea;s"/>
+            <StringItem index="77" value="Uganda - Ugandense"/>
+            <StringItem index="78" value="Botsuana - Bechuano"/>
+            <StringItem index="79" value="Costa do Marfim - Marfinense"/>
+            <StringItem index="80" value="Camar&#xf5;es - Camaronense"/>
+            <StringItem index="81" value="Nig&#xe9;ria - Nigeriano"/>
+            <StringItem index="82" value="Som&#xe1;lia - Somali"/>
+            <StringItem index="83" value="Austr&#xe1;lia - Australiano"/>
+            <StringItem index="84" value="Nova Zel&#xe2;ndia - Neozeland&#xea;s"/>
+            <StringItem index="85" value="Afeganist&#xe3;o - Afeg&#xe3;o"/>
+            <StringItem index="86" value="Ar&#xe1;bia Saudita - Saudita"/>
+            <StringItem index="87" value="Arm&#xea;nia - Armeno"/>
+            <StringItem index="88" value="Armeno - Bangladesh"/>
+            <StringItem index="89" value="China - Chin&#xea;s"/>
+            <StringItem index="90" value="Cor&#xe9;ia do Norte - Norte-coreano, coreano"/>
+            <StringItem index="91" value="Cor&#xe9;ia do Sul - Sul-coreano, coreano"/>
+            <StringItem index="92" value="&#xcd;ndia - Indiano"/>
+            <StringItem index="93" value="Indon&#xe9;sia - Indon&#xe9;sio"/>
+            <StringItem index="94" value="Iraque - Iraquiano"/>
+            <StringItem index="95" value="Ir&#xe3; - Iraniano"/>
+            <StringItem index="96" value="Israel - Israelita"/>
+            <StringItem index="97" value="Jap&#xe3;o - Japon&#xea;s"/>
+            <StringItem index="98" value="Mal&#xe1;sia - Malaio"/>
+            <StringItem index="99" value="Nepal - Nepal&#xea;s"/>
+            <StringItem index="100" value="Om&#xe3; - Omanense"/>
+            <StringItem index="101" value="Paquist&#xe3;o - Paquistan&#xea;s"/>
+            <StringItem index="102" value="Palestina - Palestino"/>
+            <StringItem index="103" value="Qatar - Qatarense"/>
+            <StringItem index="104" value="S&#xed;ria - S&#xed;rio"/>
+            <StringItem index="105" value="Sri Lanka - Cingal&#xea;s"/>
+            <StringItem index="106" value="Tail&#xe2;ndia - Tailand&#xea;s"/>
+            <StringItem index="107" value="Timor-Leste - Timorense, maubere"/>
+            <StringItem index="108" value="Emirados &#xc1;rabes Unidos - &#xc1;rabe, emiratense"/>
+            <StringItem index="109" value="Vietn&#xe3; - Vietnamita"/>
+            <StringItem index="110" value="I&#xea;men - Iemenita"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="altura">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="peso">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="000"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pesoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="adicionarLutador">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adicionar Lutador"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="adicionarLutadorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Luta:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="marcarLuta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marcar Luta!"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="marcarLutaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lutaMarcada">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vitorioso:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Derrotado:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="vitorioso">
+    </Component>
+    <Component class="javax.swing.JLabel" name="derrotado">
+    </Component>
+    <Component class="javax.swing.JButton" name="mostrarRendimentos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mostrar Rendimentos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mostrarRendimentosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="nomesLutadores">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelVitorias">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vit&#xf3;rias:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelDerrotas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Derrotas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelEmpates">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Empates:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mostrarVitorias">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MostrarDerrotas">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mostrarEmpates">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="66" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="idade">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="adicionadoSucesso">
+    </Component>
+  </SubComponents>
+</Form>
